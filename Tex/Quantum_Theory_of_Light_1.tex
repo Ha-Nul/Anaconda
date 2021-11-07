@@ -1,5 +1,55 @@
-\documentclass[10pt]{oblivoir}
+\documentclass[10pt]{article}
 \usepackage{amsmath}
+\usepackage{physics}
+\usepackage{amssymb}
+\usepackage{microtype}
+\title{Derivation of the equations}
+\date{}
 \begin{document}
-\date{2021-11-07}
+\maketitle
+\section{Ch.1}
+\section{Ch.2}
+\subsection{2.2 Quantization of field}
+\begin{equation}
+    \vec{\nabla}\cdot\vec{A}=0
+\end{equation}
+\begin{equation}
+    \nabla^2\vec{A}-\frac{1}{c^2}\frac{\partial^2\vec{A}}{\partial t^2}
+\end{equation}
+\begin{equation}
+    \vec{E} = -\frac{\partial \vec{A}}{\partial t}, \vec{B}=\vec{\nabla}\times\vec{A}
+\end{equation}
+fourier series expansion of A:
+\begin{equation}
+    \vec{A}(\vec{r},t)=\sum_k(\vec{A_k}(t)\exp^{i\vec{k}\cdot\vec{r}}+\vec{{A_k}^*}(t)\exp^{-i\vec{k}\cdot\vec{r}})
+\end{equation}
+\begin{equation}
+    k_x=\frac{2\pi n_x}{L},k_y=\frac{2\pi n_y}{L},k_z=\frac{2\pi n_z}{L}
+\end{equation}
+\begin{equation}
+    \vec{k}\cdot\vec{A_k}=\vec{k}\cdot\vec{A_k}^*=0
+\end{equation}
+substitute eq(2.4) with (2.2)
+\begin{equation*}
+    \nabla^2=(\frac{\partial^2}{\partial x^2}+\frac{\partial^2}{\partial y^2}+\frac{\partial^2}{\partial z^2})
+\end{equation*}
+\begin{equation*}
+    \sum_k(\vec{A_k}(t)(\frac{\partial^2}{\partial x^2}+\frac{\partial^2}{\partial y^2}+\frac{\partial^2}{\partial z^2})
+    \exp^{i(k_x x + k_y y + k_z z)} + c.c)
+\end{equation*}
+\begin{equation*}
+    \sum_k(-k^2\vec{A_k}(t)\exp^{i\vec{k}\cdot\vec{r}} + -k^2\vec{A_k}^*(t)\exp^{-i\vec{k}\cdot\vec{r}})
+\end{equation*}
+for single k, 
+\begin{equation}
+    k^2\vec{A_k}(t)+\frac{1}{c^2}\frac{\partial^2 \vec{A_k}(t)}{\partial t^2}=0
+\end{equation}
+\begin{equation}
+    \vec{A_k}=\vec{A_k}\exp^{-i{\omega}_k t} , {\omega}_k = ck
+\end{equation}
+\begin{equation}
+    \vec{A}(\vec{r},t)=\sum_k(\vec{A_k}\exp^{-i\omega_k t} \exp^{i\vec{k}\cdot\vec{r}}+
+    \vec{{A_k}^*}\exp^{-i\vec{k}\cdot\vec{r}}\exp^{i\omega_k t})
+\end{equation}
+
 \end{document}
