@@ -1,4 +1,4 @@
-\documentclass[10pt]{article}
+\documentclass[9pt]{article}
 \usepackage{amsmath}
 \usepackage{physics}
 \usepackage{amssymb}
@@ -21,7 +21,7 @@
 \end{equation}
 fourier series expansion of A:
 \begin{equation}
-    \vec{A}(\vec{r},t)=\sum_k(\vec{A_k}(t)\exp^{i\vec{k}\cdot\vec{r}}+\vec{{A_k}^*}(t)\exp^{-i\vec{k}\cdot\vec{r}})
+    \vec{A}(\vec{r},t)=\sum_k(\vec{A_k}(t)e^{i\vec{k}\cdot\vec{r}}+\vec{{A_k}^*}(t)e^{-i\vec{k}\cdot\vec{r}})
 \end{equation}
 \begin{equation}
     k_x=\frac{2\pi n_x}{L},k_y=\frac{2\pi n_y}{L},k_z=\frac{2\pi n_z}{L}
@@ -35,21 +35,140 @@ substitute eq(2.4) with (2.2)
 \end{equation*}
 \begin{equation*}
     \sum_k(\vec{A_k}(t)(\frac{\partial^2}{\partial x^2}+\frac{\partial^2}{\partial y^2}+\frac{\partial^2}{\partial z^2})
-    \exp^{i(k_x x + k_y y + k_z z)} + c.c)
+    e^{i(k_x x + k_y y + k_z z)} + c.c)
 \end{equation*}
 \begin{equation*}
-    \sum_k(-k^2\vec{A_k}(t)\exp^{i\vec{k}\cdot\vec{r}} + -k^2\vec{A_k}^*(t)\exp^{-i\vec{k}\cdot\vec{r}})
+    \sum_k(-k^2\vec{A_k}(t)e^{i\vec{k}\cdot\vec{r}} + -k^2\vec{A_k}^*(t)e^{-i\vec{k}\cdot\vec{r}})
 \end{equation*}
 for single k, 
 \begin{equation}
     k^2\vec{A_k}(t)+\frac{1}{c^2}\frac{\partial^2 \vec{A_k}(t)}{\partial t^2}=0
 \end{equation}
 \begin{equation}
-    \vec{A_k}=\vec{A_k}\exp^{-i{\omega}_k t} , {\omega}_k = ck
+    \vec{A_k}=\vec{A_k}e^{-i{\omega}_k t} , {\omega}_k = ck
 \end{equation}
 \begin{equation}
-    \vec{A}(\vec{r},t)=\sum_k(\vec{A_k}\exp^{-i\omega_k t} \exp^{i\vec{k}\cdot\vec{r}}+
-    \vec{{A_k}^*}\exp^{-i\vec{k}\cdot\vec{r}}\exp^{i\omega_k t})
+    \vec{A}(\vec{r},t)=\sum_k(\vec{A_k}e^{-i\omega_k t + i\vec{k}\cdot\vec{r}}+
+    \vec{{A_k}^*}e^{-i\vec{k}\cdot\vec{r} + i\omega_k t})
 \end{equation}
-
+\begin{equation}
+    \vec{E_k}(\vec{r},t)=\sum_k\vec{E_k}=i\sum_k\omega_k(\vec{A_k}e^{-i\omega_k t + i\vec{k}\cdot\vec{r}}+
+    \vec{{A_k}^*}e^{-i\vec{k}\cdot\vec{r} + i\omega_k t})
+\end{equation}
+\begin{equation}
+    \vec{B_k}(\vec{r},t)=\sum_k\vec{B_k}=i\sum_k\vec{k}\times(\vec{A_k}e^{-i\omega_k t + i\vec{k}\cdot\vec{r}}+
+    \vec{{A_k}^*}e^{-i\vec{k}\cdot\vec{r} + i\omega_k t})
+\end{equation}
+calculation process for eq(11):
+\begin{equation*}
+    \nabla\times\vec{A}=\nabla\times(\vec{A_k}e^{-i\omega_k t + i\vec{k}\cdot\vec{r}}+
+    \vec{{A_k}^*}e^{-i\vec{k}\cdot\vec{r} + i\omega_k t})
+\end{equation*}
+\begin{equation*}
+    (\frac{\partial}{\partial{y}}A_{k_z}e^{i\omega_k t + i\vec{k}\cdot\vec{r}}-
+    \frac{\partial}{\partial{z}}A_{k_y}e^{i\omega_k t + i\vec{k}\cdot\vec{r}})\hat{i}
+\end{equation*}
+\begin{equation*}
+    + (\frac{\partial}{\partial{z}}A_{k_x}e^{i\omega_k t + i\vec{k}\cdot\vec{r}}-
+    \frac{\partial}{\partial{x}}A_{k_z}e^{i\omega_k t + i\vec{k}\cdot\vec{r}})\hat{j}
+\end{equation*}
+\begin{equation*}
+    + (\frac{\partial}{\partial{x}}A_{k_y}e^{i\omega_k t + i\vec{k}\cdot\vec{r}}-
+    \frac{\partial}{\partial{y}}A_{k_x}e^{i\omega_k t + i\vec{k}\cdot\vec{r}})\hat{z}
+\end{equation*}
+\begin{equation}
+    \overline{\eta_k}=\frac{1}{2}\int(\epsilon_0 \overline{E^2_k}+\frac{\overline{B^2_k}}{\mu_0})dV
+\end{equation}
+\begin{equation}
+    \overline{\vec{E^2_k}}=\frac{1}{T}\int^T_0 dt E^2_k = 2\omega^2_k \abs{\vec{A_k}}^2
+\end{equation}
+\begin{equation}
+    \overline{\vec{B^2_k}}=\frac{1}{T}\int^T_0 dt E^2_k = 2k^2_k \abs{\vec{A_k}}^2
+\end{equation}
+\begin{equation}
+    \overline{\eta_k}=(\epsilon_0\omega^2_k \abs{\vec{A_k}}^2 + \frac{k^2_k}{\mu_0} \abs{\vec{A_k}}^2)
+    =2\epsilon_0\omega^2_k V \abs{\vec{A_k}}^2
+\end{equation}
+\begin{equation}
+    \vec{A_k}=\frac{\vec{\epsilon_k}}{\sqrt{4\epsilon_0 V \omega^2_k}}(\omega_k q_k + ip_k)
+\end{equation}
+\begin{equation}
+    \overline{\eta_k}=\frac{1}{2}(\omega^2_k q^2_k + p^2_k)
+\end{equation}
+\begin{equation}
+    \overline{\eta}=\sum_k\overline{\eta_k}=2\epsilon_0 V \sum_k\omega^2_k \abs{\vec{A_k}}^2
+    =\frac{1}{2}\sum_k(\omega^2_k q^2_k + p^2_k)
+\end{equation}
+\begin{equation}
+    \hat{H}=\frac{1}{2}\sum_k(\omega^2_k \hat{q}^2_k + \hat{p}^2_k)
+\end{equation}
+since $$ [\hat{q}_k,\hat{p}_k]=i\hbar $$
+\begin{equation}
+    \hat{a}_k=\frac{1}{\sqrt{2\hbar \omega_k}}(\omega_k \hat{q}_k + i\hat{p}_k)
+\end{equation}
+\begin{equation}
+    \hat{a^\dagger}_k=\frac{1}{\sqrt{2\hbar \omega_k}}(\omega_k \hat{q}_k - i\hat{p}_k)
+\end{equation}
+\begin{equation*}
+    [\hat{a}_k,\hat{a^\dagger}_k]=\hat{a}_k\hat{a^\dagger}_k-\hat{a^\dagger}_k\hat{a}_k
+\end{equation*}
+\begin{equation*}
+    \hat{a}_k\hat{a^\dagger}_k = 
+    \frac{1}{2\hbar \omega_k}(\omega_k \hat{q}_k + i\hat{p}_k)(\omega_k \hat{q}_k - i\hat{p}_k)
+\end{equation*}
+\begin{equation*}
+    =\frac{1}{2\hbar \omega_k}(\omega^2_k \hat{q}^2_k + \hat{p}^2_k  -i\omega_k\hat{q}\hat{p}+i\omega_k\hat{p}\hat{q})
+\end{equation*}
+\begin{equation*}
+    =\frac{1}{2\hbar \omega_k}(\omega^2_k \hat{q}^2_k + \hat{p}^2_k-i\omega_k[\hat{q}_k,\hat{p}_k])
+\end{equation*}
+\begin{equation*}
+    \hat{a^\dagger}_k\hat{a}_k =\frac{1}{2\hbar \omega_k}(\omega^2_k \hat{q}^2_k + \hat{p}^2_k+i\omega_k[\hat{q}_k,\hat{p}_k])
+\end{equation*}
+\begin{equation*}
+    [\hat{a}_k,\hat{a^\dagger}_k]=\frac{1}{2\hbar \omega_k}(-2i\omega_k [\hat{q}_k,\hat{p}_k])
+    =-\frac{i}{\hbar} [\hat{q}_k,\hat{p}_k] = -\frac{i}{\hbar} i\hbar = 1
+\end{equation*}
+\begin{equation}
+    [\hat{a}_k,\hat{a^\dagger}_k]= \delta_{kk^*}
+\end{equation}
+\begin{equation}
+    \hat{\vec{A_k}}=\vec{\epsilon_k}\sqrt{\frac{\hbar}{2\epsilon_0\omega_k V}}\hat{A}_k
+\end{equation}
+\begin{equation}
+    \vec{A}(\vec{r},t)=\sum_k\vec{\epsilon_k}\sqrt{\frac{\hbar}{2\epsilon_0\omega_k V}}(\hat{a}_k e^{-i\omega_k t + i\vec{k}\cdot\vec{r}}+
+    \hat{a}_k^\dagger e^{-i\vec{k}\cdot\vec{r} + i\omega_k t})
+\end{equation}
+\begin{equation}
+    \vec{E}(\vec{r},t)=i\sum_k\vec{\epsilon_k}\sqrt{\frac{\hbar\omega_k}{2\epsilon_0 V}}(\hat{a}_k e^{-i\omega_k t + i\vec{k}\cdot\vec{r}}+
+    \hat{a}_k^\dagger e^{-i\vec{k}\cdot\vec{r} + i\omega_k t})
+\end{equation}
+\begin{equation}
+    \vec{B}(\vec{r},t)=i\sum_k\vec{k}\times\vec{\epsilon_k}\sqrt{\frac{\hbar}{2\epsilon_0\omega_k V}}(\hat{a}_k e^{-i\omega_k t + i\vec{k}\cdot\vec{r}}+
+    \hat{a}_k^\dagger e^{-i\vec{k}\cdot\vec{r} + i\omega_k t})
+\end{equation}
+\subsection{Quantized single mode field}
+single mode, wave vector k, angular frequency $\omega=ck$
+\begin{equation}
+    \hat{H}=\frac{1}{2} (\omega^2\hat{q}^2+\hat{p}^2)
+\end{equation}
+$\hat{q}$ : position operator , $\hat{p}$ : momentum operator
+\begin{equation}
+    \hat{q}=\sqrt{\frac{\hbar}{2\omega}}(\hat{a}+\hat{a}^\dagger)
+\end{equation}
+\begin{equation}
+    \hat{p}=i\sqrt{\frac{\hbar\omega}{2}}(\hat{a}^\dagger-\hat{a})
+\end{equation}
+\begin{equation}
+    \hat{H}=\frac{\hbar\omega}{2}(\hat{a}^\dagger\hat{a}+\hat{a}\hat{a}^\dagger+\frac{1}{2})
+\end{equation}
+\begin{equation}
+    \hat{H}\ket{n}=\hbar\omega(\hat{a}^\dagger\hat{a}+\frac{1}{2})\ket{n}=\eta_n\ket{n}
+\end{equation}
+\begin{equation}
+    \hbar\omega{\hat{a}^\dagger\hat{a}a^\dagger\hat{a}+\frac{1}{2}\hat{a}^\dagger}\ket{n}=\hbar\omega(\hat{a}^\dagger\hat{a}-\frac{1}{2})\ket{n}
+\end{equation}
+\begin{equation*}
+    =\eta_n\hat{a}a^\dagger\ket{n}
+\end{equation*}
 \end{document}
