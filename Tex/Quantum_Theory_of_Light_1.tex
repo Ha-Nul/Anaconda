@@ -9,9 +9,18 @@
 \begin{document}
 \maketitle
 \section{Ch.1}
-\begin{equation}
-    \mathscr{E}=h\nu
-\end{equation}
+\begin{equation*}
+    m=0
+\end{equation*}
+\begin{equation*}
+    \mathscr{E}=h\nu=\frac{hc}{\lambda}
+\end{equation*}
+\begin{equation*}
+    p=\frac{h\nu}{c} = \frac{h}{\lambda}
+\end{equation*}
+\begin{equation*}
+    \Phi=\frac{AI}{h\nu_0}=\frac{P}{h\nu_0}
+\end{equation*}
 \section{Ch.2}
 \subsection{2.2 Quantization of field}
 \begin{equation}
@@ -81,7 +90,7 @@ calculation process for eq(11):
     \frac{\partial}{\partial{y}}A_{k_x}e^{i\omega_k t + i\vec{k}\cdot\vec{r}})\hat{z}
 \end{equation*}
 \begin{equation}
-    \overline{\eta_k}=\frac{1}{2}\int(\epsilon_0 \overline{E^2_k}+\frac{\overline{B^2_k}}{\mu_0})dV
+    \overline{\mathscr{E}_k}=\frac{1}{2}\int(\epsilon_0 \overline{E^2_k}+\frac{\overline{B^2_k}}{\mu_0})dV
 \end{equation}
 \begin{equation}
     \overline{\vec{E^2_k}}=\frac{1}{T}\int^T_0 dt E^2_k = 2\omega^2_k \abs{\vec{A_k}}^2
@@ -90,17 +99,17 @@ calculation process for eq(11):
     \overline{\vec{B^2_k}}=\frac{1}{T}\int^T_0 dt E^2_k = 2k^2_k \abs{\vec{A_k}}^2
 \end{equation}
 \begin{equation}
-    \overline{\eta_k}=(\epsilon_0\omega^2_k \abs{\vec{A_k}}^2 + \frac{k^2_k}{\mu_0} \abs{\vec{A_k}}^2)
+    \overline{\mathscr{E}_k}=(\epsilon_0\omega^2_k \abs{\vec{A_k}}^2 + \frac{k^2_k}{\mu_0} \abs{\vec{A_k}}^2)
     =2\epsilon_0\omega^2_k V \abs{\vec{A_k}}^2
 \end{equation}
 \begin{equation}
     \vec{A_k}=\frac{\vec{\epsilon_k}}{\sqrt{4\epsilon_0 V \omega^2_k}}(\omega_k q_k + ip_k)
 \end{equation}
 \begin{equation}
-    \overline{\eta_k}=\frac{1}{2}(\omega^2_k q^2_k + p^2_k)
+    \overline{\mathscr{E}_k}=\frac{1}{2}(\omega^2_k q^2_k + p^2_k)
 \end{equation}
 \begin{equation}
-    \overline{\eta}=\sum_k\overline{\eta_k}=2\epsilon_0 V \sum_k\omega^2_k \abs{\vec{A_k}}^2
+    \overline{\mathscr{E}}=\sum_k\overline{\mathscr{E}_k}=2\epsilon_0 V \sum_k\omega^2_k \abs{\vec{A_k}}^2
     =\frac{1}{2}\sum_k(\omega^2_k q^2_k + p^2_k)
 \end{equation}
 \begin{equation}
@@ -167,17 +176,17 @@ $\hat{q}$ : position operator , $\hat{p}$ : momentum operator
     \hat{H}=\frac{\hbar\omega}{2}(\hat{a}^\dagger\hat{a}+\hat{a}\hat{a}^\dagger+\frac{1}{2})
 \end{equation}
 \begin{equation}
-    \hat{H}\ket{n}=\hbar\omega(\hat{a}^\dagger\hat{a}+\frac{1}{2})\ket{n}=\eta_n\ket{n}
+    \hat{H}\ket{n}=\hbar\omega(\hat{a}^\dagger\hat{a}+\frac{1}{2})\ket{n}=\mathscr{E}_n\ket{n}
 \end{equation}
 \begin{equation}
     \hbar\omega{\hat{a}^\dagger\hat{a}a^\dagger\hat{a}+\frac{1}{2}\hat{a}^\dagger}\ket{n}=\hbar\omega(\hat{a}^\dagger\hat{a}-\frac{1}{2})\ket{n}
 \end{equation}
 \begin{equation*}
-    =\eta_n\hat{a}^\dagger\ket{n}
+    =\mathscr{E}_n\hat{a}^\dagger\ket{n}
 \end{equation*}
 \begin{equation}
     \hat{H}\hat{a}^\dagger\ket{n}=
-    \hbar\omega(\hat{a}^\dagger\hat{a}+\frac{1}{2})\hat{a}^\dagger\ket{n}=(\eta_n+\hbar\omega)\hat{a}^\dagger\ket{n}
+    \hbar\omega(\hat{a}^\dagger\hat{a}+\frac{1}{2})\hat{a}^\dagger\ket{n}=(\mathscr{E}_n+\hbar\omega)\hat{a}^\dagger\ket{n}
 \end{equation}
 \end{document}
 
