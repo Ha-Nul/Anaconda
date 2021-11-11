@@ -9,6 +9,7 @@
 \begin{document}
 \maketitle
 \section{Ch.1}
+This is a section about properties of photon.
 \begin{equation*}
     m=0
 \end{equation*}
@@ -18,9 +19,11 @@
 \begin{equation*}
     p=\frac{h\nu}{c} = \frac{h}{\lambda}
 \end{equation*}
+Mean photon flux can be wrote as:
 \begin{equation*}
     \Phi=\frac{AI}{h\nu_0}=\frac{P}{h\nu_0}
 \end{equation*}
+Notice that We can count the number of the photon per time using this equation. Unit of P is Watt, and $h\nu$ is eV.
 \section{Ch.2}
 \subsection{2.1 Quantization of field}
 \begin{equation}
@@ -122,6 +125,7 @@ since $$ [\hat{q}_k,\hat{p}_k]=i\hbar $$
 \begin{equation}
     \hat{a^\dagger}_k=\frac{1}{\sqrt{2\hbar \omega_k}}(\omega_k \hat{q}_k - i\hat{p}_k)
 \end{equation}
+\# calculation process
 \begin{equation*}
     [\hat{a}_k,\hat{a^\dagger}_k]=\hat{a}_k\hat{a^\dagger}_k-\hat{a^\dagger}_k\hat{a}_k
 \end{equation*}
@@ -142,6 +146,7 @@ since $$ [\hat{q}_k,\hat{p}_k]=i\hbar $$
     [\hat{a}_k,\hat{a^\dagger}_k]=\frac{1}{2\hbar \omega_k}(-2i\omega_k [\hat{q}_k,\hat{p}_k])
     =-\frac{i}{\hbar} [\hat{q}_k,\hat{p}_k] = -\frac{i}{\hbar} i\hbar = 1
 \end{equation*}
+end.
 \begin{equation}
     [\hat{a}_k,\hat{a^\dagger}_k]= \delta_{kk^*}
 \end{equation}
@@ -161,6 +166,7 @@ since $$ [\hat{q}_k,\hat{p}_k]=i\hbar $$
     \hat{a}_k^\dagger e^{-i\vec{k}\cdot\vec{r} + i\omega_k t})
 \end{equation}
 \subsection{2.2 Quantized single mode field}
+In this section, the word "mode" is defined as value of wave vector k varies.
 single mode, wave vector k, angular frequency $\omega=ck$
 \begin{equation}
     \hat{H}=\frac{1}{2} (\omega^2\hat{q}^2+\hat{p}^2)
@@ -255,8 +261,16 @@ If single mode light is in a mixed state, than we can describe its state by usin
 \end{equation}
 Expectation value of number of the photon n is:
 \begin{equation}
-    <n>=<\hat{a}^\dagger\hat{a}>=Tr
-
+    <n>=<\hat{a}^\dagger\hat{a}>=Tr\{ \hat{\rho}\hat{a}^\dagger\hat{a}\}
+\end{equation}
+In case of the blackbody radiation, which is an general example of the mixed state light,  probability of the state is:
+\begin{equation}
+    P_n=e^{\frac{-n\hbar\omega}{kT}}(1-e^{\frac{-\hbar\omega}{kT}})
+\end{equation}
+density operator is:
+\begin{equation}
+    \hat{\rho}=(1-e^{\hbar\omega}{kT})\sum_n e^{\frac{-n\hbar\omega}{kT}}\ket{n}\bra{n}
+\end{equation}
 \end{document}
 
 
