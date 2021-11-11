@@ -271,6 +271,41 @@ density operator is:
 \begin{equation}
     \hat{\rho}=(1-e^{\hbar\omega}{kT})\sum_n e^{\frac{-n\hbar\omega}{kT}}\ket{n}\bra{n}
 \end{equation}
+\subsection{2.5 Vacuum fluctuation and zero point energy}
+\begin{equation}
+    \hat{\vec{A}}(\vec{r},t)=\vec{\epsilon_k}\sqrt{\frac{\hbar}{2\epsilon_0\omega_k V}}(\hat{a}_k e^{-i\omega_k t + i\vec{k}\cdot\vec{r}}+
+    \hat{a}_k^\dagger e^{-i\vec{k}\cdot\vec{r} + i\omega_k t})
+\end{equation}
+\begin{equation}
+    \hat{\vec{E}}(\vec{r},t)=i\vec{\epsilon_k}\sqrt{\frac{\hbar\omega_k}{2\epsilon_0 V}}(\hat{a}_k e^{-i\omega_k t + i\vec{k}\cdot\vec{r}}+
+    \hat{a}_k^\dagger e^{-i\vec{k}\cdot\vec{r} + i\omega_k t})
+\end{equation}
+\begin{equation}
+    \hat{\vec{B}}(\vec{r},t)=i\vec{k}\times\vec{\epsilon_k}\sqrt{\frac{\hbar}{2\epsilon_0\omega_k V}}(\hat{a}_k e^{-i\omega_k t + i\vec{k}\cdot\vec{r}}+
+    \hat{a}_k^\dagger e^{-i\vec{k}\cdot\vec{r} + i\omega_k t})
+\end{equation}
+Eigenstate $\ket{n}$ of the hamiltonian H, expectation value of operators turn out to be 0. For instance, 
+\begin{equation*}
+    \bra{n}\hat{\vec{E}}\ket{n}=i\vec{\epsilon_k}\sqrt{\frac{\hbar\omega_k}{2\epsilon_0 V}}(\bra{n}\hat{a}_k\ket{n} e^{-i\omega_k t + i\vec{k}\cdot\vec{r}}+
+    \bra{n}\hat{a}_k^\dagger\ket{n} e^{-i\vec{k}\cdot\vec{r} + i\omega_k t})
+\end{equation*}
+\begin{equation*}
+    =i\vec{\epsilon_k}\sqrt{\frac{\hbar\omega_k}{2\epsilon_0 V}}(\sqrt{n}\bra{n}\ket{n-1} e^{-i\omega_k t + i\vec{k}\cdot\vec{r}}+
+    \sqrt{n+1}\bra{n}\ket{n+1} e^{-i\vec{k}\cdot\vec{r} + i\omega_k t})
+\end{equation*}
+\begin{equation}
+    \bra{n}\hat{\vec{E}}\ket{n}=0
+\end{equation}
+Expectation value of $\hat{E^2}=\hat{\vec{E}}\cdot\hat{\vec{E}}$ :
+\begin{equation}
+    \bra{n}\hat{\vec{E}}\cdot\hat{\vec{E}}\ket{n}=\frac{\hbar\omega}{2\epsilon_0 V}\bra{n}\hat{a}\hat{a}^\dagger+\hat{a}\hat{a}\dagger\ket{n}
+    =\frac{\hbar\omega}{2\epsilon_0 V}(n+\frac{1}{2})
+\end{equation}
+What this equation states is that there are always fluctuation exists in a Electronic field. When light is in fock state, uncertainty of field is:
+\begin{equation}
+    \Delta{E}=\sqrt{\<\hat{E}^2\>-<\hat{E}>^2} = \sqrt{\frac{\hbar\omega}{\epslion_0 V}(n+\frac{1}{2})
+\end{equation}
+
 \end{document}
 
 
