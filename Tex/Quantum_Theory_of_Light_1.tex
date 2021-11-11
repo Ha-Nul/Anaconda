@@ -22,7 +22,7 @@
     \Phi=\frac{AI}{h\nu_0}=\frac{P}{h\nu_0}
 \end{equation*}
 \section{Ch.2}
-\subsection{2.2 Quantization of field}
+\subsection{2.1 Quantization of field}
 \begin{equation}
     \vec{\nabla}\cdot\vec{A}=0
 \end{equation}
@@ -160,7 +160,7 @@ since $$ [\hat{q}_k,\hat{p}_k]=i\hbar $$
     \vec{B}(\vec{r},t)=i\sum_k\vec{k}\times\vec{\epsilon_k}\sqrt{\frac{\hbar}{2\epsilon_0\omega_k V}}(\hat{a}_k e^{-i\omega_k t + i\vec{k}\cdot\vec{r}}+
     \hat{a}_k^\dagger e^{-i\vec{k}\cdot\vec{r} + i\omega_k t})
 \end{equation}
-\subsection{Quantized single mode field}
+\subsection{2.2 Quantized single mode field}
 single mode, wave vector k, angular frequency $\omega=ck$
 \begin{equation}
     \hat{H}=\frac{1}{2} (\omega^2\hat{q}^2+\hat{p}^2)
@@ -209,5 +209,54 @@ $\hat{q}$ : position operator , $\hat{p}$ : momentum operator
 \begin{equation}
     \hat{a}^\dagger\hat{a}\ket{n}=n\ket{n}
 \end{equation}
+\begin{equation}
+    \hat{a}^\dagger=c_n\ket{n+1} \hat{a}^\dagger=\sqrt{n+1}\ket{n+1}
+\end{equation}
+\begin{equation}
+    \hat{a}=d_n\ket{n-1}
+\end{equation}
+\begin{equation}
+    \hat{a}^\dagger=\sqrt{n+1}\ket{n1}
+\end{equation}
+\begin{equation}
+    \hat{a}=\sqrt{n}\ket{n-1}
+\end{equation}
+\begin{equation}
+    \ket{n}=\frac{1}{\sqrt{n!}}(\hat{a}^\dagger)^n\ket{0}
+\end{equation}
+\subsection{2.3 quantized multi mode radiation field}
+\begin{equation}
+    \hat{H}=\sum_k\hbar\omega_k(\hat{a}^\dagger\hat{a}+\frac{1}{2})
+\end{equation}
+\begin{equation*}
+    \mathscr{E}_{k_1}+\mathscr{E}_{k_2}+\mathscr{E}_{k_3}+...+\mathscr{E}_{k_n}=\sum^N_{i=1}(n_{k_1}+\frac{1}{2})\hbar\omega_k
+\end{equation*}
+\begin{equation}
+    \hat{H}\ket{n_k}=(\sum_k\hbar\omega_k(\hat{a}^\dagger\hat{a}+\frac{1}{2}))\ket{n_k}=(\sum_k\hbar\omega_k(n_k+\frac{1}{2}))\ket{n_k}
+\end{equation}
+\subsection{2.4 General states of the quantized radiation field}
+If single mode light is in a pure state, Generally we can describe its state as linear superposition.
+\begin{equation}
+    \ket{\phi}=\sum_n a_n\ket{n}
+\end{equation}
+Probability, Expectation value, Uncertainty:
+\begin{equation*}
+    P_n=\abs{a_n}^2 , <n>=\sum_n nP_n = \sum_n n\abs{a_n}^2
+\end{equation*}
+\begin{equation}
+    \Delta{n}=\sqrt{(n-<n>)^2} = \sqrt{(<n^2>-<n>^2)}= \sqrt{\sum_n n^2 P_n-(\sum_n nP_n)^2}
+\end{equation}
+\begin{equation}
+    a_n=e^{-\frac{\abs{\alpha^2}}{2}}\frac{\alpha^n}{\sqrt{n!}}
+\end{equation}
+If single mode light is in a mixed state, than we can describe its state by using density operator, $\hat{\rho}=\sum_\phi P_\phi \ket{\phi}\bra{\phi}$
+\begin{equation}
+    \hat{\rho}=\sum_n P_n \ket{n}\bra{n}
+\end{equation}
+Expectation value of number of the photon n is:
+\begin{equation}
+    <n>=<\hat{a}^\dagger\hat{a}>=Tr
+
 \end{document}
+
 
