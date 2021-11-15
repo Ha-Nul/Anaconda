@@ -196,6 +196,8 @@ INPUT G:\Install_Program\MikTex\tex\latex\microtype\mt-cmr.cfg
 INPUT G:\Install_Program\MikTex\tex\latex\microtype\mt-cmr.cfg
 INPUT G:\Install_Program\MikTex\fonts\tfm\public\cm\cmr12.tfm
 INPUT G:\Install_Program\MikTex\fonts\tfm\public\cm\cmbx12.tfm
+INPUT G:\Install_Program\MikTex\fonts\tfm\public\cm\cmr12.tfm
+INPUT G:\Install_Program\MikTex\fonts\tfm\public\cm\cmbx12.tfm
 INPUT G:\Install_Program\MikTex\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT G:\Install_Program\MikTex\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT G:\Install_Program\MikTex\tex\latex\jknappen\ursfs.fd
@@ -242,11 +244,17 @@ INPUT G:\Install_Program\MikTex\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT G:\Install_Program\MikTex\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT G:\Install_Program\MikTex\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT G:\Install_Program\MikTex\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT G:\Install_Program\MikTex\fonts\type1\public\amsfonts\cm\cmr5.pfb
+INPUT G:\Install_Program\MikTex\fonts\type1\public\amsfonts\cm\cmr5.pfb
 INPUT G:\Install_Program\MikTex\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT G:\Install_Program\MikTex\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT G:\Install_Program\MikTex\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT G:\Install_Program\MikTex\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT G:\Install_Program\MikTex\fonts\type1\public\amsfonts\cm\cmsy5.pfb
+INPUT G:\Install_Program\MikTex\fonts\type1\public\amsfonts\cm\cmsy5.pfb
 INPUT G:\Install_Program\MikTex\fonts\type1\public\amsfonts\cm\cmsy7.pfb
 INPUT G:\Install_Program\MikTex\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT G:\Install_Program\MikTex\fonts\type1\public\amsfonts\symbols\msam10.pfb
+INPUT G:\Install_Program\MikTex\fonts\type1\public\amsfonts\symbols\msam10.pfb
 INPUT G:\Install_Program\MikTex\fonts\type1\public\amsfonts\symbols\msbm10.pfb
 INPUT G:\Install_Program\MikTex\fonts\type1\public\amsfonts\symbols\msbm10.pfb

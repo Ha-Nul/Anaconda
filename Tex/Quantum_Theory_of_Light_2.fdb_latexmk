@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1636998952 "c:/Users/128kbps/Anaconda_temp/Anaconda_rep/Tex/Quantum_Theory_of_Light_2.tex" "Quantum_Theory_of_Light_2.pdf" "Quantum_Theory_of_Light_2" 1636998953
+["pdflatex"] 1637001997 "c:/Users/128kbps/Anaconda_temp/Anaconda_rep/Tex/Quantum_Theory_of_Light_2.tex" "Quantum_Theory_of_Light_2.pdf" "Quantum_Theory_of_Light_2" 1637001998
   "C:/Users/128kbps/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1636562477 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/128kbps/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs5.tfm" 1636562478 684 3a51bd4fd9600428d5264cf25f04bb9a ""
   "C:/Users/128kbps/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs7.tfm" 1636562479 692 1b6510779f0f05e9cbf03e0f6c8361e6 ""
@@ -20,9 +20,12 @@
   "G:/Install_Program/MikTex/fonts/type1/public/amsfonts/cm/cmmi5.pfb" 1247596667 37912 07513ec114ac737ab54cea0152f4424b ""
   "G:/Install_Program/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1247596667 36281 c355509802a035cadc5f15869451dcee ""
   "G:/Install_Program/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
+  "G:/Install_Program/MikTex/fonts/type1/public/amsfonts/cm/cmr5.pfb" 1247596667 31809 8670ca339bf94e56da1fc21c80635e2a ""
   "G:/Install_Program/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1247596667 32762 7fee39e011c23b3589931effd97b9702 ""
   "G:/Install_Program/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "G:/Install_Program/MikTex/fonts/type1/public/amsfonts/cm/cmsy5.pfb" 1247596666 32915 7bf7720c61a5b3a7ff25b0964421c9b6 ""
   "G:/Install_Program/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1247596666 32716 08e384dc442464e7285e891af9f45947 ""
+  "G:/Install_Program/MikTex/fonts/type1/public/amsfonts/symbols/msam10.pfb" 1247596673 31764 459c573c03a4949a528c2cc7f557e217 ""
   "G:/Install_Program/MikTex/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1247596673 34694 870c211f62cb72718a00e353f14f254d ""
   "G:/Install_Program/MikTex/tex/latex/amsfonts/amsfonts.sty" 1358197772 5949 3f3fd50a8cc94c3d4cbf4fc66cd3df1c ""
   "G:/Install_Program/MikTex/tex/latex/amsfonts/amssymb.sty" 1358197772 13829 94730e64147574077f8ecfea9bb69af4 ""
@@ -48,10 +51,10 @@
   "G:/Install_Program/MikTex/tex/latex/microtype/mt-msa.cfg" 1615773827 5893 689137a22345667b6bfab5e3450a5aba ""
   "G:/Install_Program/MikTex/tex/latex/microtype/mt-msb.cfg" 1615773827 5558 ce2f9b99e893d638267b0bcd8f4e782a ""
   "G:/Install_Program/MikTex/tex/latex/physics/physics.sty" 1356002062 29610 a9597219b282d9c78b02393dcd7d4322 ""
-  "Quantum_Theory_of_Light_2.aux" 1636998953 153 2cc271372d6416431469dfb9b89cb313 "pdflatex"
-  "Quantum_Theory_of_Light_2.tex" 1636998951 1506 593163fc2022f529e0b2e5cb8992141c ""
-  "c:/Users/128kbps/Anaconda_temp/Anaconda_rep/Tex/Quantum_Theory_of_Light_2.tex" 1636998951 1506 593163fc2022f529e0b2e5cb8992141c ""
+  "Quantum_Theory_of_Light_2.aux" 1637001998 370 ef740ef0dc9ac21f05e7018cd193b427 "pdflatex"
+  "Quantum_Theory_of_Light_2.tex" 1637001996 3248 17c70e40959fbe2b6d09e44ac7c7e380 ""
+  "c:/Users/128kbps/Anaconda_temp/Anaconda_rep/Tex/Quantum_Theory_of_Light_2.tex" 1637001996 3248 17c70e40959fbe2b6d09e44ac7c7e380 ""
   (generated)
-  "Quantum_Theory_of_Light_2.pdf"
-  "Quantum_Theory_of_Light_2.log"
   "Quantum_Theory_of_Light_2.aux"
+  "Quantum_Theory_of_Light_2.log"
+  "Quantum_Theory_of_Light_2.pdf"

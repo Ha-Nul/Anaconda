@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.15)  16 NOV 2021 02:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.15)  16 NOV 2021 03:46
 entering extended mode
 **c:/Users/128kbps/Anaconda_temp/Anaconda_rep/Tex/Quantum_Theory_of_Light_2.tex
 (c:/Users/128kbps/Anaconda_temp/Anaconda_rep/Tex/Quantum_Theory_of_Light_2.tex
@@ -152,36 +152,36 @@ Package microtype Info: No adjustment of character kerning.
  (G:\Install_Program\MikTex\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 9.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 10.
  (G:\Install_Program\MikTex\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 9.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
  (G:\Install_Program\MikTex\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (G:\Install_Program\MikTex\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 9.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
  (G:\Install_Program\MikTex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (G:\Install_Program\MikTex\tex/latex/microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [1
 
-{C:/Users/128kbps/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (Quantum_Theory_of_Light_2.aux) ) 
+{C:/Users/128kbps/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2] (Quantum_Theory_of_Light_2.aux) ) 
 Here is how much of TeX's memory you used:
- 3866 strings out of 478927
- 56725 string characters out of 2861478
- 389318 words of memory out of 3000000
- 21700 multiletter control sequences out of 15000+600000
- 406747 words of font info for 50 fonts, out of 8000000 for 9000
+ 3878 strings out of 478927
+ 56869 string characters out of 2861478
+ 395318 words of memory out of 3000000
+ 21704 multiletter control sequences out of 15000+600000
+ 407568 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,5n,81p,401b,139s stack positions out of 5000i,500n,10000p,200000b,80000s
-<G:/Install_Program/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><G:/Install_Program/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><G:/Install_Program/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><G:/Install_Program/MikTex/fonts/type1/public/amsfonts/cm/cmmi5.pfb><G:/Install_Program/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><G:/Install_Program/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><G:/Install_Program/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><G:/Install_Program/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><G:/Install_Program/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><G:/Install_Program/MikTex/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Quantum_Theory_of_Light_2.pdf (1 page, 100794 bytes).
+ 70i,6n,81p,401b,139s stack positions out of 5000i,500n,10000p,200000b,80000s
+<G:/Install_Program/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><G:/Install_Program/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><G:/Install_Program/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><G:/Install_Program/MikTex/fonts/type1/public/amsfonts/cm/cmmi5.pfb><G:/Install_Program/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><G:/Install_Program/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><G:/Install_Program/MikTex/fonts/type1/public/amsfonts/cm/cmr5.pfb><G:/Install_Program/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><G:/Install_Program/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><G:/Install_Program/MikTex/fonts/type1/public/amsfonts/cm/cmsy5.pfb><G:/Install_Program/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><G:/Install_Program/MikTex/fonts/type1/public/amsfonts/symbols/msam10.pfb><G:/Install_Program/MikTex/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Quantum_Theory_of_Light_2.pdf (2 pages, 136814 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
+ 74 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 10241 words of extra memory for PDF output out of 12000 (max. 10000000)
+ 14337 words of extra memory for PDF output out of 14400 (max. 10000000)
 
