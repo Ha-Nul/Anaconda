@@ -23,9 +23,9 @@ Mean photon flux can be wrote as:
 \begin{equation*}
     \Phi=\frac{AI}{h\nu_0}=\frac{P}{h\nu_0}
 \end{equation*}
-Notice that We can count the number of the photon per time using this equation. Unit of P is Watt, and $h\nu$ is eV.
+Notice that the number of the photon can be count by using equation above. Unit of P is Watt, and $h\nu$ is eV.
 \section{Ch.2}
-\subsection{2.1 Quantization of field}
+\subsection{2.1 Quantization of the radiation field}
 \begin{equation}
     \vec{\nabla}\cdot\vec{A}=0
 \end{equation}
@@ -165,7 +165,7 @@ end.
     \vec{B}(\vec{r},t)=i\sum_k\vec{k}\times\vec{\epsilon_k}\sqrt{\frac{\hbar}{2\epsilon_0\omega_k V}}(\hat{a}_k e^{-i\omega_k t + i\vec{k}\cdot\vec{r}}+
     \hat{a}_k^\dagger e^{-i\vec{k}\cdot\vec{r} + i\omega_k t})
 \end{equation}
-\subsection{2.2 Quantized single mode field}
+\subsection{2.2 Quantized single mode radiation field}
 In this section, the word "mode" is defined as value of wave vector k varies.
 single mode, wave vector k, angular frequency $\omega=ck$
 \begin{equation}
@@ -222,7 +222,7 @@ $\hat{q}$ : position operator , $\hat{p}$ : momentum operator
     \hat{a}=d_n\ket{n-1}
 \end{equation}
 \begin{equation}
-    \hat{a}^\dagger=\sqrt{n+1}\ket{n1}
+    \hat{a}^\dagger=\sqrt{n+1}\ket{n+1}
 \end{equation}
 \begin{equation}
     \hat{a}=\sqrt{n}\ket{n-1}
@@ -263,6 +263,10 @@ Expectation value of number of the photon n is:
 \begin{equation}
     <n>=<\hat{a}^\dagger\hat{a}>=Tr\{ \hat{\rho}\hat{a}^\dagger\hat{a}\}
 \end{equation}
+\# calculation process Using Eq 40
+\begin{equation*}
+    <\hat{a}^\dagger\hat{a}>=\bra{n}\hat{a}^\dagger\hat{a}\ket{a}=n\braket{n}{n}
+\end{equation*}
 In case of the blackbody radiation, which is an general example of the mixed state light,  probability of the state is:
 \begin{equation}
     P_n=e^{\frac{-n\hbar\omega}{kT}}(1-e^{\frac{-\hbar\omega}{kT}})
