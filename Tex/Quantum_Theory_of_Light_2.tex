@@ -11,6 +11,28 @@
     \hat{a}_k^\dagger e^{-i\vec{k}\cdot\vec{r} + i\omega_k t})
 \end{equation*}
 \begin{equation*}
-    \hat{E^{(+)}=i\vec{\epsilon}\sqrt{\frac{\hbar\omega}{2\epsilon_0 V}}(\hat{a} e^{-i\omega t + i\vec{k}\cdot\vec{r}})
+    \hat{E}^{(+)}(\vec{r},t)=i\vec{\epsilon}\sqrt{\frac{\hbar\omega}{2\epsilon_0 V}}(\hat{a} e^{-i\omega t + i\vec{k}\cdot\vec{r}}) \\
 \end{equation*}
-    \end{document}
+\begin{equation*}  
+    \hat{E}^{(-)}(\vec{r},t)=i\vec{\epsilon}\sqrt{\frac{\hbar\omega}{2\epsilon_0 V}}(\hat{a} e^{-i\vec{k}\cdot\vec{r}+i\omega t + })
+\end{equation*}
+\begin{equation*}
+    \hat{\vec{E}}(\vec{r},t)=\hat{E}^{(+)}+\hat{E}^{(-)}
+\end{equation*}
+\begin{equation*}
+    P\propto\sum_f\abs{\bra{f}\hat{E}^{(+)}(\vec{r},t)\ket{i}}^2=\sum_f\bra{i}\hat{E}^{(-)}(\vec{r},t)\ket{f}\bra{f}\hat{E}^{(+)}(\vec{r},t)\ket{i}
+\end{equation*}
+\begin{equation*}
+    =\bra{i}\hat{E}^{(-)}(\vec{r},t)\hat{E}^{(+)}(\vec{r},t)\ket{i}
+\end{equation*}
+\begin{equation*}
+    =Tr\{\rho\hat{E}^{(-)}(\vec{r},t)\hat{E}^{(+)}(\vec{r},t)\}
+\end{equation*}
+first-order coherence function $G^{(1)}$:
+\begin{equation*}
+    G^{(1)}(x_1,x_2)=\ev{E^{(-)}(x_1)E^{(+)}(x_1)}
+\end{equation*}
+\begin{equation*}
+    (x_1,x_2)=((\vec{r}_1,t_1),(\vec{r}_2,t_2))
+\end{equation*}
+\end{document}
