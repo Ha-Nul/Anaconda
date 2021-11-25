@@ -111,7 +111,7 @@
     g^{(2)}=\frac{G^{(2)}(x_1,x_2,x_3,x_4)}{\sqrt{G^{(1)}(x_1,x_1)G^{(1)}(x_2,x_2)G^{(3)}(x_3,x_3)G^{(4)}(x_4,x_4)}}
 \end{equation}
 \begin{equation}
-    G^{(2)}(x_1,x_2,x_3,x_4)=\bra{\alpha}E^{(-)}(x_1)E^{(-)}(x_2)E^{(+)}(x_2)E^{(+)}(x_1)\ket{\alpha}
+    G^{(2)}(x_1,x_2,x_2,x_1)=\bra{\alpha}E^{(-)}(x_1)E^{(-)}(x_2)E^{(+)}(x_2)E^{(+)}(x_1)\ket{\alpha}
 \end{equation}
 \begin{equation*}
     =(\frac{\hbar \omega }{2\epsilon_0 V })^2 \abs{\alpha}^4
@@ -173,10 +173,14 @@ sub-Poissonian : $[(\Delta n)^2-\ev{n}]<0$
 \begin{equation}
     \abs{g^{(j)}(x_1,x_2,\cdots,x_{2j})}=1
 \end{equation}
+for all $ n \leq j $
 \begin{equation}
     g^{(n)}(x_1,\cdots,x_n,x_n,\cdots,x_1)=1
 \end{equation}
 \begin{equation}
     G^{(n)}(x_1,\cdots,x_n,x_n,\cdots,x_1)=\prod_{j=1}^n G^{(1)}(x_j,x_j)
 \end{equation}
+\begin{equation*}
+    G^{(n)}(x_1,\cdots,x_n,x_n,\cdots,x_1)G^{(n)}(x_{n+1},\cdots,x_{2n},x_{2n},\cdots,x_{n+1}) \geq \abs{G^{(n)}(x_1,\cdots,x_n,x_{n+1},\cdots,x_{2n})}^2
+\end{equation*}
 \end{document}
